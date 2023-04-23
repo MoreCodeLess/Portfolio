@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "back",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,6 @@
     "serve": "node dist/index.js",
     "clean": "rimraf dist"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
