@@ -19,9 +19,11 @@ const StyledContainer = styled.div.attrs({
     background-color: ${bgColor};
     width: ${width};
     height: ${height};
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
     display: ${display};
     justify-content: ${justify};
-    flex-wrap: ${wrap};                                                  
+    flex-wrap: ${wrap};                                               
   `}
 `;
 

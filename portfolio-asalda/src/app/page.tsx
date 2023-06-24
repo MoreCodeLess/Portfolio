@@ -14,13 +14,12 @@ export default function Home() {
         width={"100%"}
       >
         <CldImage
-          alt={"memo1"}
-          src={"samples/portfolio/home/memo1_huhsfy.webp"}
-          width={200}
-          height={200}
+          alt={"memo8"}
+          className={styles.iconImage}
+          src={"samples/portfolio/home/memo8.webp"}
+          width={170.6}
+          height={170.6}
         />
-        <h1 className={styles.title}>Welcome to my website!</h1>
-        <p className={styles.description}>This is my personal website.</p>
       </Container>
     </main>
   );
